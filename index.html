@@ -49,6 +49,15 @@
       background: linear-gradient(135deg, var(--accent), var(--accent2));
       box-shadow: var(--shadow);
     }
+    .logo-img{
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  object-fit:cover;
+  box-shadow: var(--shadow);
+  display:block;
+  flex: 0 0 38px;
+}
     .brand strong{letter-spacing:.2px}
     .menu{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
     .menu a{opacity:.9; text-decoration:none; font-size:14px; padding:8px 10px; border-radius:12px}
@@ -145,7 +154,7 @@
 <header>
   <div class="nav">
     <a class="brand" href="#top">
-    <span class="logo" aria-hidden="true"></span>
+    <img src="logo.jpeg" alt="Logo CeReBa" class="logo-img" />
       <div>
         <strong>Diaspora JBA — Appel à projets 2026</strong><br/>
         <span class="muted" style="font-size:12px;">CeReBa</span>
@@ -385,6 +394,7 @@
 </script>
 </body>
 </html>
+
 
 
 
